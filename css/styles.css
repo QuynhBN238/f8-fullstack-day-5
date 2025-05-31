@@ -1,0 +1,64 @@
+body {
+    background: hsl(0, 27%, 54%);
+    padding: 40px;
+}
+.cv, .form {
+    max-width: 926px;
+    min-height: 700px;
+    padding: 30px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px 6px rgba(0,0,0,0.75);
+}
+.my-name {
+    text-align: center;
+
+}
+h1 {
+    font-size: 27px;
+    font-weight: bold;
+    padding: 3px;
+}
+h2 {
+    padding: 8px;
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+}
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+}
+ul {
+    list-style-type: disc;
+    padding: 5px 20px;
+    text-align: justify;
+}
+li {
+    padding: 5px;
+}
+.img-avatar {
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+h3 {
+    padding: 8px;
+    font-weight: bold;
+}
+.img-avatar {
+    padding: 3px;
+}
+.sent-to {
+    padding: 10px;
+} 
+.form-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
